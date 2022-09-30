@@ -155,6 +155,12 @@ body{
     color: rgb(144, 103, 202);
    cursor: pointer;
 }
+.fa-sharp+a{
+    color: white;
+}
+.fa-sharp+a:hover{
+    color:rgb(144, 103, 202) ;
+}
 #btn1{
     width: 16%;
     padding: 12px;
@@ -307,18 +313,19 @@ body{
     
 }
 .middle-img-gif-parent{
-    width: 100%;
+    width: 90%;
     background-image: url("https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c5743d88a28b8_lines-home.svg"); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 850px;
+    background-size: 840px;
     padding-bottom: 200px;
+    margin: auto;
 }
 .middle-img-gif-child{
 width: 100%;
 display: flex;
 margin: auto;
-margin-top: 100px;
+margin-top: 220px;
 }
 .middle-img-gif-child>div{
     width: 45%;
@@ -332,7 +339,7 @@ margin-top: 100px;
 .middle-img-gif-cart>p{
     word-wrap: break-word;
     line-height: 25px;
-
+   text-align: start ;
 }
 a{
     color: rgb(143,72,252);
@@ -342,14 +349,14 @@ a{
     border: 0px solid red;
     text-align: start;
     line-height: 25px;
-   
-
 }
-/* .middle-img-gif-cart{
-    
-}  */
-.middle-img-gif-child>div>video{
+.middle-img-gif-child>div>img{
     width: 100%;
+    border-radius: 10px;
+    height: auto;
+} 
+.middle-img-gif-child>div>video{
+    width: 90%;
     border-radius: 10px;
     height: auto;
 }
@@ -358,7 +365,7 @@ a{
     height: 600px;
     background-image: url("https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39954d108af5d7_circle2.svg"); 
     margin-top: 100px;
-    background-size: 850px;
+    background-size: 1000px;
     margin: auto;
     background-color:rgb(105,41,196) ;
     background-repeat: no-repeat;
