@@ -18,7 +18,13 @@ body{
     justify-content: space-between;
     margin: auto;
     background-color:  rgb(105,41,196);
-    
+    /* overflow: hidden;
+    padding: 20px 10px; 
+    transition: 0.4s;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99; */
 }
 #navbar-product{
     display: flex;
@@ -142,8 +148,14 @@ body{
     cursor: pointer;
     display: block;
 }
-#navbar-product>div,button{
+#navbar-product>div{
     margin-left: 10px;
+}
+#navbar-product>button{
+    margin-left: 10px;
+}
+#navbar-product>div>span+a:hover{
+    color: rgb(144, 103, 202);
 }
 #navbar-product>div>span>i{
     color: white;
@@ -165,8 +177,9 @@ body{
     font-size: 15px;
     border-radius: 10px;
     border: 0px;
-    
-
+}
+.navbar-product>#btn1>a:hover{
+    color: white;
 }
 .middle-start{
     width: 100%;
@@ -178,11 +191,11 @@ body{
 }
 
 .middle-start>div{
-    width: 42%;
+    width: 45%;
     margin: auto;
 }
 .middle-start-2>img{
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 .middle-start-1>h1{
