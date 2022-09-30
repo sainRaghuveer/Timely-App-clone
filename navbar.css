@@ -18,14 +18,7 @@ body{
     justify-content: space-between;
     margin: auto;
     background-color:  rgb(105,41,196);
-    /* overflow: hidden;
-    padding: 20px 10px; 
-    transition: 0.4s;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 99; */
-     
+    
 }
 #navbar-product{
     display: flex;
@@ -68,7 +61,6 @@ body{
     -webkit-box-flex: 1;
     background-color:yellow;
 }
-
 .mini-logo{
     width: 30px;
     height: 20px;
@@ -78,7 +70,6 @@ body{
     -webkit-box-orient: vertical;
     justify-content: center;
     -webkit-box-direction: normal;
-
 } */
 #nav-img1{
     width: 10%;
@@ -151,23 +142,8 @@ body{
     cursor: pointer;
     display: block;
 }
-#navbar-product>div{
+#navbar-product>div,button{
     margin-left: 10px;
-}
-#navbar-product>div>a{
-    color: white;
-}
-#navbar-product>div>span+a:hover{
-    color: rgb(144, 103, 202);
-}
-#navbar-product>button{
-    margin-left: 10px;
-}
-#navbar-product>button>a{
-    color: black;
-}
-#navbar-product>button>a:hover{
-    color:white ;
 }
 #navbar-product>div>span>i{
     color: white;
@@ -189,9 +165,8 @@ body{
     font-size: 15px;
     border-radius: 10px;
     border: 0px;
-}
-#btn1>a{
-    color: black;
+    
+
 }
 .middle-start{
     width: 100%;
@@ -203,11 +178,11 @@ body{
 }
 
 .middle-start>div{
-    width: 45%;
+    width: 42%;
     margin: auto;
 }
 .middle-start-2>img{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .middle-start-1>h1{
