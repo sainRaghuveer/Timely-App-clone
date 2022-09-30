@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main-container{
+    width: 90%;
+    background-image: url("https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_logo-f1db7b16e667aab7b9a607429d44d5cc17125da4f36faac751017cdb71ea8ac2.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+    border: 0px solid blue;
+    
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
+.head>img{
+    width: 2.7%;
+    text-align: center;
+    border-radius: 12px;
+}
+.middle-1{
+    width:80%;
+    margin: auto;
+    border: 0px solid blue;
+    height: auto;
+   margin-top: 80px;
+   display: flex;
+   text-align: center;
+}
+.middle-1>div{
+    margin: auto;
+    width: 50%;
+    border: 0px solid red;
+}
+.middle-1>div>#img{
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.middle-1>div>div>img{
+    width: 25%;
+    margin: auto;
+    
+}
+.middle-1>div>h2{
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #64657e;
+}
+.middle-1>div>div{
+    width: 80%;
+    margin: auto;
+    line-height: 17px;
+    margin-bottom: -5px;
+}
+.middle-1>div>div>h3{
+    Color:#64657e;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.middle-1>div>div>p>span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.middle-1>div>div>p{
+    Color:#64657e;
+    margin-top: -10px;
+}
+.middle-1>.form{
+   margin-top: -10px;
+}
+.middle-1>.form>h1{
+    Color:#64657e;
+    font-weight: 700;
+    font-size: 45px;
+   
+}
+.middle-1>.form>h1+p{
+    Color:#64657e;
+    margin-bottom: 40px;
+}
+.middle-1>.form>h1+p>a{
+    color:rgb(4,214,144);
+    cursor: pointer;
+    
+}
+input{
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 218, 223);
+    margin-bottom: 10px;
+}
+button{
+    width: 82%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 218, 223);
+    margin-top: 15px;
+    cursor: pointer;
+}
+.form>form>button>.myImg{
+    margin-right: 150px;
+    display: inline;
+    width: 6%;
+    font-size: 20px;
+}
+/* button+p{
+    color: rgb(4,214,144);
+    cursor: pointer;
+} */
+p+button{
+    background-color: white;
+    cursor: pointer;
+}
+p+button:hover{
+    background-color:rgb(242,241,242) ;
+}
+button+button{
+    background-color: white;
+    cursor: pointer;
+}
+button+button:hover{
+    background-color:rgb(242,241,242) ;
+}
+#footer{
+    margin-top: 30px;
+    border: 0px solid blue;
+}
+input+p>a{
+    color:rgb(4,214,144) ;
+}
