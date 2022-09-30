@@ -25,7 +25,6 @@ body{
     width: 100%;
     top: 0;
     z-index: 99; */
-     
 }
 #navbar-product{
     display: flex;
@@ -68,7 +67,6 @@ body{
     -webkit-box-flex: 1;
     background-color:yellow;
 }
-
 .mini-logo{
     width: 30px;
     height: 20px;
@@ -78,7 +76,6 @@ body{
     -webkit-box-orient: vertical;
     justify-content: center;
     -webkit-box-direction: normal;
-
 } */
 #nav-img1{
     width: 10%;
@@ -154,20 +151,11 @@ body{
 #navbar-product>div{
     margin-left: 10px;
 }
-#navbar-product>div>a{
-    color: white;
-}
-#navbar-product>div>span+a:hover{
-    color: rgb(144, 103, 202);
-}
 #navbar-product>button{
     margin-left: 10px;
 }
-#navbar-product>button>a{
-    color: black;
-}
-#navbar-product>button>a:hover{
-    color:white ;
+#navbar-product>div>span+a:hover{
+    color: rgb(144, 103, 202);
 }
 #navbar-product>div>span>i{
     color: white;
@@ -190,8 +178,8 @@ body{
     border-radius: 10px;
     border: 0px;
 }
-#btn1>a{
-    color: black;
+.navbar-product>#btn1>a:hover{
+    color: white;
 }
 .middle-start{
     width: 100%;
