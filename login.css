@@ -25,9 +25,10 @@ body{
     width:80%;
     margin: auto;
     border: 0px solid blue;
-    height: 600px;
+    height: auto;
    margin-top: 80px;
    display: flex;
+   flex-direction: row-reverse;
    text-align: center;
 }
 .middle-1>div{
@@ -96,6 +97,7 @@ input{
     padding: 20px;
     border-radius: 10px;
     border: 1px solid rgb(223, 218, 223);
+    margin-bottom: 20px;
 }
 button{
     width: 82%;
@@ -130,4 +132,47 @@ button+button{
 }
 button+button:hover{
     background-color:rgb(242,241,242) ;
+}
+@media all and (max-width: 1600px) and (min-width:1201px){
+    .head>img{
+        width:3%;
+        text-align: center;
+        border-radius: 12px;
+    }
+}
+@media all and (max-width: 1200px) and (min-width:801px){
+    .middle-1{
+        width:100%;
+    }
+    .head>img{
+        width: 6%;
+        text-align: center;
+        border-radius: 12px;
+    }
+    .middle-1>div{
+        margin: auto;
+        width: 100%;
+        border: 0px solid red;
+    }
+}
+@media all and (max-width: 800px) and (min-width:300px){
+    .middle-1{
+        width:100%;
+       margin-top: 80px;
+       display: flex;
+       flex-direction: row-reverse;
+       flex-direction: column;
+       text-align: center;
+       /* display: block; */
+    }
+    .middle-1>div{
+        margin: auto;
+        width: 100%;
+        border: 0px solid red;
+    }
+    .head>img{
+        width: 10%;
+        text-align: center;
+        border-radius: 12px;
+    }
 }

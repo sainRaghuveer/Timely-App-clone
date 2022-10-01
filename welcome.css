@@ -60,7 +60,7 @@ button{
 }
 .container-2{
     width: 60%;
-    height: 700px;
+    height: auto;
     border: 0px solid red;
     background-color: rgb(242,244,248);
 }
@@ -73,4 +73,53 @@ button{
 }
 .container-2>div>img{
     width: 95%;
+    margin-bottom: 150px;
+}
+@media all and (max-width: 1200px) and (min-width:800px){
+    .container-1>div{
+        width: 70%;
+      
+    }
+    .container-2{
+        width: 70%;
+       
+    }
+    .container-2>div>img{
+        width: 100%;
+    }
+    .container-2>div{
+        width: 90%;
+    }
+    .container-1>div>input{
+        width: 60%;
+    }
+    
+}
+@media all and (max-width: 799px) and (min-width:200px){
+    .container-1>div{
+        width: 90%;
+       
+    }
+    .container-2{
+        width: 100%;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .container-2>div>img{
+        width: 100%;
+    }
+    .container-2>div{
+        width: 100%;
+    }
+    #container{
+        width: 100%;
+        border: 0px solid blue;
+        display: flex;
+        flex-direction: column;
+        font-family: Circular,-apple-system,BlinkMacSystemFont,system,sans-serif;
+    }
+    .container-1>div>h1{
+        text-align: center;
+     }
 }
