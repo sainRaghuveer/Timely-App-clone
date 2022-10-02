@@ -703,25 +703,25 @@ border-radius: 10px;
     .navbar-container>#navbar-product{
         width: 100%;
         display: flex;
-        border: 1px solid yellow;
+        border: 0px solid yellow;
         margin-right: 0px;
         
     }.navbar-container>#nav-image_1{
         width: 50%;
         height: auto;
         margin-top: 7px;
-       border: 1px solid black;
+       border: 0px solid black;
        text-align: center;
     }
     .middle-img-gif-parent{
-        width: 100%;
+        
         background-image: none; 
     }
     .middle-img-gif-child>div{
         width: 50%;
     }
     .middle-round-animation{
-        width: 100%;
+        
         background-image: none; 
     }
     .grant>div:nth-child(2){
@@ -777,7 +777,7 @@ border-radius: 10px;
     .navbar-container>#navbar-product{
         width: 100%;
         display: flex;
-        border: 1px solid yellow;
+        border: 0px solid yellow;
         margin-right: 0px;
         margin-right: 0px;
         /* flex-wrap: wrap-reverse; */
@@ -786,7 +786,7 @@ border-radius: 10px;
         width: 100%;
         height: auto;
         margin-top: 7px;
-       border: 1px solid black;
+       border: 0px solid black;
        text-align: center;
     }
     .navbar-container>#navbar-product>div{
@@ -800,6 +800,7 @@ border-radius: 10px;
      .middle-start>div>div{
         width: 80%;
      }
+    
     .middle-start>.middle-start-1{
         width: 100%;
         border: 2px solid black;
@@ -930,26 +931,53 @@ border-radius: 10px;
     }
 
     .navbar-container{
+        width: 100%;
         display: grid;
        grid-template-columns: repeat(1, 1fr);
-
+        grid-template-rows: repeat(2, 100px);
+        margin: auto;
+    }
+    .navbar-container>#nav-img1{
+        width: 50%;
+        height: 80px;
+        margin: auto;
+    }
+    .navbar-container>#nav-img1>#nav-image_1{
+        width: 50%;
     }
     .navbar-container>#navbar-product>div{
         /* display: none; */
     }
     .navbar-container>#navbar-product{
         width: 100%;
-        display: flex;
-        border: 1px solid yellow;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        border: 0px solid yellow;
         margin-right: 0px;
-        
-    }.navbar-container>#nav-image_1{
+    }
+    .navbar-container>#navbar-product>div{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar-container>#navbar-product>div>#nav-image_2{
+        display: none;
+    }
+    .navbar-container>#navbar-product>#btn1{
+        display: none;
+    }
+    .navbar-container>#nav-image_1{
         width: 100%;
         height: auto;
         margin-top: 7px;
-       border: 1px solid black;
+       border: 0px solid black;
        text-align: center;
     }
+    .middle-start{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+     }
     .middle-start>div{
         display: block;
         width: 100%;
@@ -960,7 +988,7 @@ border-radius: 10px;
     }
     .middle-start>div>.middle-start-1{
         width: 100%;
-        border: 2px solid black;
+        border: 0px solid black;
         display: block;
         margin-left: 0px;
         padding-left: 0px;
@@ -1111,33 +1139,56 @@ border-radius: 10px;
     }
 
     .navbar-container{
+        width: 100%;
         display: grid;
        grid-template-columns: repeat(1, 1fr);
-
+        grid-template-rows: repeat(2, 100px);
+        margin: auto;
+    }
+    .navbar-container>#nav-img1{
+        width: 50%;
+        height: 80px;
+        margin: auto;
+    }
+    .navbar-container>#nav-img1>#nav-image_1{
+        width: 50%;
     }
     .navbar-container>#navbar-product>div{
         /* display: none; */
     }
     .navbar-container>#navbar-product{
         width: 100%;
-        display: flex;
-        border: 1px solid yellow;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        border: 0px solid yellow;
         margin-right: 0px;
-        
-    }.navbar-container>#nav-image_1{
+    }
+    .navbar-container>#navbar-product>div{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .navbar-container>#navbar-product>div>#nav-image_2{
+        display: none;
+    }
+    .navbar-container>#navbar-product>#btn1{
+        display: none;
+    }
+    .navbar-container>#nav-image_1{
         width: 100%;
         height: auto;
         margin-top: 7px;
-       border: 1px solid black;
+       border: 0px solid black;
        text-align: center;
     }
     .middle-start{
-        display: block;
+        margin: auto;
+        text-align: center;
         width: 100%;
-    }
+     }
     .middle-start>.middle-start-1{
         width: 100%;
-        border: 2px solid black;
+        border: 0px solid black;
         display: block;
         margin-left: 0px;
         padding-left: 0px;
