@@ -29,10 +29,17 @@ deskTime webiste looks very amazing and introduced with various type of language
  
  Homepage is one of the most important factor which also known by the name of Landing Page. There are different kinds of the section is there like Product Search and Login things etc.
   ## Home Page
+  
 <img src="https://i.ibb.co/7b0Skng/timely-project.png" alt="timely-project" border="0">
+
   ## Login Page
+  
 <img src="https://i.ibb.co/PDW41R6/Screenshot-797.png" alt="Screenshot-797" border="0">
+
   ## SignUp Page
+  
 <img src="https://i.ibb.co/HDmCQjc/Screenshot-798.png" alt="Screenshot-798" border="0">
+
   ## Project Page Page
+  
 <img src="https://i.ibb.co/dKLGNGr/Screenshot-799.png" alt="Screenshot-799" border="0">
